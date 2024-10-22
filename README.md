@@ -69,18 +69,42 @@ This project showcases the successful deployment of **Portainer**, a powerful ma
    - Choose an Amazon Machine Image (AMI) suitable for your needs.
    - Configure instance type, security group, and key pair.
 
-2. **Install Docker**
-   - Connect to your EC2 instance via SSH.
-   - Follow the official [Docker installation guide](https://docs.docker.com/get-docker/) to install Docker.
+2. **Connect to Your EC2 Instance**
+   - Connect to your EC2 instance via SSH:
+     ```bash
+     ssh -i "your-key.pem" ec2-user@<your-ec2-instance-public-ip>
+     ```
 
-3. **Install Docker Compose**
+3. **Install Docker**
+   - Update the package database:
+     ```bash
+     sudo yum update -y
+     ```
+   - Install Docker:
+     ```bash
+     sudo amazon-linux-extras install docker
+     ```
+   - Start the Docker service:
+     ```bash
+     sudo service docker start
+     ```
+   - Add the `ec2-user` to the `docker` group to run Docker commands without `sudo`:
+     ```bash
+     sudo usermod -aG docker ec2-user
+     ```
+   - Log out and log back in to refresh your group membership:
+     ```bash
+     exit
+     ```
+
+4. **Install Docker Compose**
    - Run the following command to install Docker Compose:
      ```bash
      sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
      sudo chmod +x /usr/local/bin/docker-compose
      ```
 
-4. **Deploy Portainer**
+5. **Deploy Portainer**
    - Create a `docker-compose.yml` file with the following content:
      ```yaml
      version: '3.3'
@@ -100,7 +124,7 @@ This project showcases the successful deployment of **Portainer**, a powerful ma
      docker-compose up -d
      ```
 
-5. **Access Portainer**
+6. **Access Portainer**
    - Open your web browser and navigate to `http://<your-ec2-instance-public-ip>:9000`.
    - Follow the setup instructions to create an admin account.
 
