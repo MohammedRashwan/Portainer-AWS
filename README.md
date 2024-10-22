@@ -16,7 +16,7 @@ This project showcases the successful deployment of **Portainer**, a powerful ma
 ## Key Responsibilities
 
 ### 🛠 Infrastructure Setup
-- Launched an EC2 instance with optimal configurations for container deployment.
+- Launche an EC2 instance with optimal configurations for container deployment.
 
 <div align="center">
     <svg width="100%" height="30">
@@ -25,7 +25,7 @@ This project showcases the successful deployment of **Portainer**, a powerful ma
 </div>
 
 ### 🚀 Portainer Installation
-- Utilized **Docker Compose** to deploy Portainer, enabling a user-friendly interface for managing Docker containers and images.
+- Utilize **Docker Compose** to deploy Portainer, enabling a user-friendly interface for managing Docker containers and images.
 
 <div align="center">
     <svg width="100%" height="30">
@@ -34,7 +34,7 @@ This project showcases the successful deployment of **Portainer**, a powerful ma
 </div>
 
 ### 🔐 Security Configuration
-- Implemented AWS security group rules to ensure secure access to the Portainer interface while adhering to best practices for network security.
+- Implement AWS security group rules to ensure secure access to the Portainer interface while adhering to best practices for network security.
 
 <div align="center">
     <svg width="100%" height="30">
@@ -43,7 +43,7 @@ This project showcases the successful deployment of **Portainer**, a powerful ma
 </div>
 
 ### 👥 User Management
-- Configured role-based access control in Portainer, allowing for secure multi-user access and management of containerized applications.
+- Configure role-based access control in Portainer, allowing for secure multi-user access and management of containerized applications.
 
 <div align="center">
     <svg width="100%" height="30">
@@ -52,7 +52,7 @@ This project showcases the successful deployment of **Portainer**, a powerful ma
 </div>
 
 ### 📊 Monitoring and Optimization
-- Monitored performance metrics and optimized the deployment for improved reliability and efficiency.
+- Monitor performance metrics and optimized the deployment for improved reliability and efficiency.
 
 ---
 
