@@ -1,30 +1,30 @@
 # Portainer Deployment on AWS EC2
 
 ## Overview
-Successfully deployed **Portainer**, a powerful management UI for Docker, on an Amazon EC2 instance to streamline container orchestration and management.
+Successfully deploy **Portainer**, a powerful management UI for Docker, on an Amazon EC2 instance to streamline container orchestration and management.
 
 ---
 
 ## Key Responsibilities
 ### 🛠 Infrastructure Setup
-- **Launched an EC2 instance** with optimal configurations for container deployment.
+- **Launche an EC2 instance** with optimal configurations for container deployment.
 
 ### 🚀 Portainer Installation
-- **Utilized Docker Compose** to deploy Portainer, enabling a user-friendly interface for managing Docker containers and images.
+- **Utilize Docker Compose** to deploy Portainer, enabling a user-friendly interface for managing Docker containers and images.
 
 ### 🔐 Security Configuration
-- **Implemented AWS security group rules** to ensure secure access to the Portainer interface while adhering to best practices for network security.
+- **Implement AWS security group rules** to ensure secure access to the Portainer interface while adhering to best practices for network security.
 
 ### 👥 User Management
-- **Configured role-based access control** in Portainer, allowing for secure multi-user access and management of containerized applications.
+- **Configure role-based access control** in Portainer, allowing for secure multi-user access and management of containerized applications.
 
 ### 📊 Monitoring and Optimization
-- **Monitored performance metrics** and optimized the deployment for improved reliability and efficiency.
+- **Monitore performance metrics** and optimized the deployment for improved reliability and efficiency.
 
 ---
 
 ## Impact
-This project enhanced the team's ability to manage containerized applications efficiently, reducing deployment times and improving operational oversight.
+This project enhance the team's ability to manage containerized applications efficiently, reducing deployment times and improving operational oversight.
 
 ---
 
