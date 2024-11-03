@@ -1,7 +1,5 @@
 # 🚀 Portainer Deployment on AWS EC2
 
-![Portainer Logo](https://www.portainer.io/images/portainer-logo.svg)
-
 ## Overview
 This project showcases the successful deployment of **Portainer**, a powerful management UI for Docker, on an **Amazon EC2** instance. The aim is to streamline container orchestration and management, providing a user-friendly interface for managing Docker containers and images.
 
